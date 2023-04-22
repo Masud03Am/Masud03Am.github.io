@@ -668,7 +668,7 @@ ol {
 }
 
 .about-text h2 {
-	font-size: 48px;
+	font-size: 45px;
 	font-weight: 500;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -1205,7 +1205,7 @@ scrolltop
 }
 
 .video-section .video-text h2 {
-	font-size: 45px;
+	font-size: 35px;
 	color: #ffffff;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -3177,10 +3177,10 @@ scrolltop
 		padding: 18px 0 5px;
 	}
 	.single-hero-item .hero-text h1 {
-		font-size: 50px;
+		font-size: 40px;
 	}
 	.single-hero-item .hero-text h2 {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.hero-items .owl-nav button[type=button] {
 		left: -15px;
@@ -3211,5 +3211,11 @@ scrolltop
 	}
 	.contact-map .map-hover {
 		left: 15%;
+	}
+	.hero-items .owl-nav button[type=button] {
+		display: none;
+	}
+	.hero-items .owl-dots{
+		display: none;
 	}
 }
