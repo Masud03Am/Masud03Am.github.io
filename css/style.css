@@ -104,8 +104,8 @@ ol {
 }
 
 .spad {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 130px;
+	padding-bottom: 130px;
 }
 
 .spad-2 {
@@ -1504,6 +1504,7 @@ scrolltop
 *****************************/
 .client-logo-slider .swiper-slide {
 	text-align: center;
+	filter: invert(1);
   }
   
   .client-logo-display-single-item .image {
@@ -1807,9 +1808,9 @@ scrolltop
   Breadcrumb Section
 -----------------------*/
 
-.breadcrumb-section {
+/*.breadcrumb-section {
 	padding-bottom: 105px;
-}
+}*/
 
 .breadcrumb-text {
 	text-align: center;
@@ -3118,7 +3119,7 @@ scrolltop
 		right: 5px;
 	}
 	.single-hero-item {
-		height: 680px;
+		height: 512px;
 	}
 	.single-hero-item .hero-text h1 {
 		font-size: 70px;
@@ -3172,6 +3173,15 @@ scrolltop
 	.breadcrumb-text h2 {
 		font-size: 30px;
 	}
+	.breadcrumb-section {
+		/* padding-bottom: 105px; */
+		margin-top: 5rem;
+	}
+	.header-section {
+		padding-left: 0;
+		padding-right: 0;
+		background-color: #151515;
+	}
 	.slicknav_menu {
 		text-align: center;
 	}
@@ -3182,6 +3192,7 @@ scrolltop
 		float: none;
 		text-align: center;
 		margin-bottom: 10px;
+		margin-left: 95px;
 	}
 	.slicknav_btn {
 		float: none;
@@ -3211,6 +3222,27 @@ scrolltop
 	}
 	.hero-items .owl-nav button[type=button].owl-next {
 		right: 15px;
+	}
+	.hero-items .hero-img1{
+		background-image: url(../img/hero-slider/hero-1_mobile.jpg) !important;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		background-color: #151515;
+	}
+	.hero-items .hero-img2{
+		background-image: url(../img/hero-slider/hero-2_mobile.jpg) !important;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		background-color: #151515;
+	}
+	.hero-items .hero-img3{
+		background-image: url(../img/hero-slider/hero-3_mobile.jpg) !important;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		background-color: #151515;
 	}
 	.map-contact-detalis {
 		width: 319px;
