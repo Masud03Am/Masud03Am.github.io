@@ -1504,15 +1504,18 @@ scrolltop
 *****************************/
 .client-logo-slider .swiper-slide {
 	text-align: center;
-	filter: invert(1);
   }
   
-  .client-logo-display-single-item .image {
-	transition: all 0.001s;
+  .client-logo-display-single-item img {
+	transition: all 0.2s ease-in-out;
+	filter: grayscale(100);
+	width: 70%;
   }
-  .client-logo-display-single-item .image:hover {
-	filter: invert(62%) sepia(44%) saturate(4989%) hue-rotate(342deg) brightness(99%) contrast(93%);
+  .client-logo-display-single-item img:hover {
+	filter: none;
+	transition: all 0.2s ease-in-out;
   }
+
 
 /*---------------------
   Map Section
@@ -1908,81 +1911,6 @@ scrolltop
 }
 
 /*---------------------
-  Testimonial Section
------------------------*/
-
-.testimonial-section {
-	padding-bottom: 130px;
-}
-
-.testimonial-slider .ts-item {
-	text-align: center;
-}
-
-.testimonial-slider .ts-item .rating {
-	margin-bottom: 16px;
-}
-
-.testimonial-slider .ts-item .rating i {
-	font-size: 20px;
-	color: #ffca04;
-	display: inline-block;
-}
-
-.testimonial-slider .ts-item h4 {
-	color: #ffffff;
-	line-height: 34px;
-	font-family: "Nunito Sans", sans-serif;
-	margin-bottom: 20px;
-}
-
-.testimonial-slider .ts-item .author-name {
-	margin-bottom: 28px;
-}
-
-.testimonial-slider .ts-item .author-name h5 {
-	color: #ffffff;
-	font-weight: 500;
-	margin-bottom: 4px;
-}
-
-.testimonial-slider .ts-item .author-name span {
-	display: inline-block;
-	color: #ffffff;
-}
-
-.testimonial-slider .ts-item .author-pic img {
-	height: 60px;
-	width: 60px;
-	border-radius: 50%;
-	margin: 0 auto;
-}
-
-.testimonial-slider .owl-dots {
-	text-align: center;
-	position: absolute;
-	left: 0;
-	bottom: -41px;
-	width: 100%;
-}
-
-.testimonial-slider .owl-dots button.owl-dot {
-	height: 4px;
-	width: 20px;
-	background: #ffffff;
-	border-radius: 50px;
-	margin-right: 10px;
-}
-
-.testimonial-slider .owl-dots button.owl-dot.active {
-	background: #e90f0f;
-}
-
-.testimonial-slider .owl-dots button.owl-dot:last-child {
-	margin-right: 0;
-}
-
-/*---------------------
   Trainer Section
 -----------------------*/
 
@@ -2005,6 +1933,29 @@ scrolltop
 
 .trainer-item:hover .ti-pic .ti-links {
 	left: 20px;
+}
+
+.trainer-item:hover .ti-pic .trainer-text {
+	left: 0;
+	position: absolute;
+	-webkit-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.trainer-item .ti-pic .trainer-text {
+	position: absolute;
+	left: -425px;
+	bottom: 0;
+	background: linear-gradient(to right, #e90f0f, #8f1703);
+	background: -o-linear-gradient(to right, #e90f0f, #8f1703);
+	background: -webkit-gradient(linear-gradient(to right, #e90f0f, #8f1703));
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 12px;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
 }
 
 .trainer-item .ti-pic img {
@@ -2033,8 +1984,8 @@ scrolltop
 	width: 40px;
 	height: 40px;
 	font-size: 16px;
-	color: #afb4bf;
-	background: #ffffff;
+	color: #fefeff;
+	background: #454545;
 	margin-bottom: 10px;
 	border-radius: 2px;
 	-webkit-transition: all 0.3s;
@@ -2049,29 +2000,14 @@ scrolltop
 	color: #ffffff;
 }
 
-.trainer-item .ti-pic .trainer-text {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	background: linear-gradient(to right, #e90f0f, #8f1703);
-	background: -o-linear-gradient(to right, #e90f0f, #8f1703);
-	background: -webkit-gradient(linear-gradient(to right, #e90f0f, #8f1703));
-	width: 100%;
-	padding-left: 20px;
-	padding-top: 15px;
-	padding-bottom: 12px;
-	-webkit-clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
-	clip-path: polygon(0 0, 100% 0%, 81% 0, 100% 100%, 0 100%);
-}
-
 .trainer-item .ti-pic .trainer-text h5 {
-	font-size: 20px;
+	font-size: 17px;
 	color: #ffffff;
 	font-weight: 500;
 }
 
 .trainer-item .ti-pic .trainer-text h5 span {
-	font-size: 14px;
+	font-size: 13px;
 	color: #ffffff;
 	font-family: "Nunito Sans", sans-serif;
 }
