@@ -1137,7 +1137,7 @@ scrolltop
   
   .client-logo-display-single-item img {
 	transition: all 0.2s ease-in-out;
-	filter: grayscale(100);
+	/*filter: grayscale(100);*/
 	width: 70%;
   }
   .client-logo-display-single-item img:hover {
