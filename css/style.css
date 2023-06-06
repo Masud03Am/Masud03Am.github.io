@@ -584,6 +584,7 @@ ol {
 
 .single-hero-item .hero-text {
 	text-align: center;
+	filter: drop-shadow(2px 4px 6px black);
 }
 
 .single-hero-item .hero-text h2 {
@@ -961,6 +962,7 @@ scrolltop
 .blog-item {
 	position: relative;
 	margin-bottom: 30px;
+	/* opacity: 0.6; */
 }
 
 .blog-item:hover .play-btn {
@@ -1017,6 +1019,7 @@ scrolltop
 	color: #ffffff;
 	font-weight: 500;
 	margin-top: 10px;
+	filter: drop-shadow(2px 4px 6px black);
 }
 
 .blog-item.instagram-item {

@@ -140,7 +140,7 @@
      *   Client Logo - 6 Grids 1 Row
      *****************************************/
     var client_logo_slider = new Swiper('.swiper-container', {
-        slidesPerView: 6,
+        slidesPerView: 5,
         autoplay: true,
         speed: 1000,
         loop: true,
@@ -157,13 +157,13 @@
                 slidesPerView: 4,
             },
             992: {
-                slidesPerView: 5,
+                slidesPerView: 4,
             },
             1200: {
-                slidesPerView: 6,
+                slidesPerView: 5,
             },
             1800: {
-                slidesPerView: 6,
+                slidesPerView: 5,
             }
             
         }
