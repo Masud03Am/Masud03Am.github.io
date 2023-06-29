@@ -175,4 +175,8 @@
         (this).swiper.autoplay.start();
     });
 
+    $('.video-text').on('click', function() {
+        $('.video-text').addClass('active');
+    });
+
 })(jQuery);
