@@ -90,7 +90,16 @@
         Magnific Popup
     --------------------*/
     $('.video-popup').magnificPopup({
-        type: 'iframe'
+        type: 'iframe',
+        iframe: {
+            patterns: {
+               youtube: {
+                  index: 'youtube.com/', 
+                  id: 'v=', 
+                  src: 'http://www.youtube.com/embed/%id%?autoplay=1' 
+              }
+            }
+        }
     });
 
     $('.image-popup').magnificPopup({

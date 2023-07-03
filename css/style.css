@@ -9,6 +9,7 @@ body {
 	font-family: "Oswald", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	/*font-smoothing: antialiased;*/
+	scroll-behavior: smooth;
 }
 
 h1,
@@ -569,7 +570,7 @@ ol {
 }
 
 .single-hero-item {
-	height: 950px;
+	height: 770px;
 	padding-top: 20px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -585,6 +586,7 @@ ol {
 .single-hero-item .hero-text {
 	text-align: center;
 	filter: drop-shadow(2px 4px 6px black);
+	margin-top: 18rem;
 }
 
 .single-hero-item .hero-text h2 {
@@ -1093,6 +1095,10 @@ scrolltop
 	opacity: 0.3;
 	border-radius: 50%;
 	content: "";
+}
+
+.blog-single-text h3{
+	color: white;
 }
 
 /*---------------------
